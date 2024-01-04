@@ -1,0 +1,8 @@
+﻿Buổi 1: 
+- Học về cách tạo project, cách thiết lập
+- Cách set startup project
+- Cách tạo thêm/mở project/xóa project
+- Cách tạo thư mục trong 1 project
+- Hello world
+- Thống nhất trong quá trình học chúng ta sử dụng .Net core 6.0 và 
+chọn không sử dụng Top Level (hiển thị cả hàm Main)

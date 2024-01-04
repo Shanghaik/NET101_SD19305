@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.0_ConsoleApp_NetFW", "1.0_ConsoleApp_NetFW\1.0_ConsoleApp_NetFW.csproj", "{DBF1CDC1-6EE1-4C48-AC72-B5F6228796A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.0_ConsoleApp_NetCore", "1.0_ConsoleApp_NetCore\1.0_ConsoleApp_NetCore.csproj", "{869166C2-5D1D-4837-B55C-BEE1B658716F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.0_ConsoleApp_NetCore_NotToplevel", "1.0_ConsoleApp_NetCore_NotToplevel\1.0_ConsoleApp_NetCore_NotToplevel.csproj", "{FFAAC880-F1A4-489F-9E3C-470FE5CBBF5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44426F91-3030-4931-8F89-CA521237A08A}"
+	ProjectSection(SolutionItems) = preProject
+		Note.txt = Note.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.0_ThongNhat", "..\..\..\Desktop\1.0_ThongNhat\1.0_ThongNhat.csproj", "{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF1CDC1-6EE1-4C48-AC72-B5F6228796A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF1CDC1-6EE1-4C48-AC72-B5F6228796A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF1CDC1-6EE1-4C48-AC72-B5F6228796A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF1CDC1-6EE1-4C48-AC72-B5F6228796A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869166C2-5D1D-4837-B55C-BEE1B658716F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869166C2-5D1D-4837-B55C-BEE1B658716F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869166C2-5D1D-4837-B55C-BEE1B658716F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869166C2-5D1D-4837-B55C-BEE1B658716F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAAC880-F1A4-489F-9E3C-470FE5CBBF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAAC880-F1A4-489F-9E3C-470FE5CBBF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAAC880-F1A4-489F-9E3C-470FE5CBBF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAAC880-F1A4-489F-9E3C-470FE5CBBF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C226CA80-28CF-4B4E-83C0-B32A96BD61B9}
+	EndGlobalSection
+EndGlobal
