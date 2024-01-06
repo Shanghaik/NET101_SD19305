@@ -14,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Note.txt = Note.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.0_ThongNhat", "..\..\..\Desktop\1.0_ThongNhat\1.0_ThongNhat.csproj", "{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.0_ThongNhat", "..\..\..\Desktop\1.0_ThongNhat\1.0_ThongNhat.csproj", "{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Bien_KieuDulieu_NhapXuat", "2_Bien_KieuDulieu_NhapXuat\2_Bien_KieuDulieu_NhapXuat.csproj", "{4A510C95-4B54-4C52-B238-CA96EB55DAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D06FF5ED-FDAE-47D2-B220-C559A7AA9BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A510C95-4B54-4C52-B238-CA96EB55DAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A510C95-4B54-4C52-B238-CA96EB55DAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A510C95-4B54-4C52-B238-CA96EB55DAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A510C95-4B54-4C52-B238-CA96EB55DAC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
