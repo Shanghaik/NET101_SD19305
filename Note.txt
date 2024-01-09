@@ -6,3 +6,5 @@
 - Hello world
 - Thống nhất trong quá trình học chúng ta sử dụng .Net core 6.0 và 
 chọn không sử dụng Top Level (hiển thị cả hàm Main)
+Buổi: 2
+- Học biến, Kiểu dữ liệu, Nhập xuất dữ liệu cơ bản và ép kiểu

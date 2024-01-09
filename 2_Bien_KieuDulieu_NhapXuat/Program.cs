@@ -60,4 +60,5 @@
             Console.WriteLine($"Tên: {ten}, Tuổi: {tuoi}, cân nặng: {can}");
         }
     }
+    
 }
