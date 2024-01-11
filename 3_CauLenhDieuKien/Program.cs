@@ -13,7 +13,11 @@
             // hơn là giỏi
             Console.WriteLine("Nhập điểm số");
             double grade = Convert.ToDouble(Console.ReadLine());
-            if (grade < 5 && grade >= 0)
+            if(grade < 0 || grade > 10)
+            {
+                Console.WriteLine("Wrong number");
+            }
+            else if (grade < 5 && grade >= 0)
             {
                 Console.WriteLine("Chúc mừng bạn đã được trải nghiệm thêm");
             }
@@ -22,12 +26,9 @@
             }else if(grade < 8)
             {
                 Console.WriteLine("You're quite good grade");
-            }else if(grade <= 10)
+            }else 
             {
                 Console.WriteLine("You're Goodboy");
-            }else
-            {
-                Console.WriteLine("Wrong number of grade!");
             }
             // Khi các điều kiện trong câu lệnh if/else là chặt (không có nhiều hơn
             // 1 trường hợp else) thì chùng ta có thể giản lược đi các điều kiện chặn
