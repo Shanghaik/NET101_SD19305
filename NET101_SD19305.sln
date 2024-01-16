@@ -18,9 +18,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.0_ThongNhat", "..\..\..\D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Bien_KieuDulieu_NhapXuat", "2_Bien_KieuDulieu_NhapXuat\2_Bien_KieuDulieu_NhapXuat.csproj", "{4A510C95-4B54-4C52-B238-CA96EB55DAC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ToanTu", "3_ToanTu\3_ToanTu.csproj", "{B85A297E-6A23-4E57-AA90-D8D248AFDAE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_ToanTu", "3_ToanTu\3_ToanTu.csproj", "{B85A297E-6A23-4E57-AA90-D8D248AFDAE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_CauLenhDieuKien", "3_CauLenhDieuKien\3_CauLenhDieuKien.csproj", "{00EB31A2-3F50-4F54-BA3D-F41003186353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_CauLenhDieuKien", "3_CauLenhDieuKien\3_CauLenhDieuKien.csproj", "{00EB31A2-3F50-4F54-BA3D-F41003186353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_VongLap", "4_VongLap\4_VongLap.csproj", "{377A6223-6003-476C-BEF2-866CBF3A8E8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{00EB31A2-3F50-4F54-BA3D-F41003186353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00EB31A2-3F50-4F54-BA3D-F41003186353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00EB31A2-3F50-4F54-BA3D-F41003186353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377A6223-6003-476C-BEF2-866CBF3A8E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377A6223-6003-476C-BEF2-866CBF3A8E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377A6223-6003-476C-BEF2-866CBF3A8E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377A6223-6003-476C-BEF2-866CBF3A8E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
