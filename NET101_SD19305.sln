@@ -24,7 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_CauLenhDieuKien", "3_CauL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_VongLap", "4_VongLap\4_VongLap.csproj", "{377A6223-6003-476C-BEF2-866CBF3A8E8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Luyentap", "5_Luyentap\5_Luyentap.csproj", "{3F981C7F-B802-4146-9D09-A1D796BBC9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Luyentap", "5_Luyentap\5_Luyentap.csproj", "{3F981C7F-B802-4146-9D09-A1D796BBC9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Ham_Function", "6_Ham_Function\6_Ham_Function.csproj", "{94F7B40F-A435-4860-978E-0F3D0343E87E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{3F981C7F-B802-4146-9D09-A1D796BBC9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F981C7F-B802-4146-9D09-A1D796BBC9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F981C7F-B802-4146-9D09-A1D796BBC9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F7B40F-A435-4860-978E-0F3D0343E87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F7B40F-A435-4860-978E-0F3D0343E87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F7B40F-A435-4860-978E-0F3D0343E87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F7B40F-A435-4860-978E-0F3D0343E87E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
