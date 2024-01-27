@@ -27,14 +27,27 @@
             // Khởi tạo đối tượng = constructor không tham số
             Sinhvien sv2 = new Sinhvien();
             // Có thể gọi phương thức hoặc Property thông qua dấu .
-            sv2.KeHoach();
-            // Sử dụng Property (get, set) để thao tác với thuộc tính
-            sv2.Ten = "Lê Văn X"; // Dùng set để gán giá trị
-            sv2.Email = "abc@gmail.com.vn";
-            sv2.Sdt = "0123456789";
-            sv2.XuatThongTin();
-            // Dùng get để lấy giá trị (Cả get và set đều dùng dấu .)
-            Console.WriteLine("Tên sinh viên 2 là: " + sv2.Ten);
+            //sv2.KeHoach();
+            //// Sử dụng Property (get, set) để thao tác với thuộc tính
+            //sv2.Ten = "Lê Văn X"; // Dùng set để gán giá trị
+            //sv2.Email = "abc@gmail.com.vn";
+            //sv2.Sdt = "0123456789";
+            //sv2.XuatThongTin();
+            //// Dùng get để lấy giá trị (Cả get và set đều dùng dấu .)
+            //Console.WriteLine("Tên sinh viên 2 là: " + sv2.Ten);
+            // Dùng Constructor có tham số để đưa ra thông tin
+            Sinhvien sv3 = new Sinhvien("PH1234", "QTHT", "Lên Văn Cắp", "111", 18, "a2@gmail.com");
+            // Sau khi được khởi tạo, các thuộc tính của đối tượng sẽ mang đúng các giá trị được gán
+            sv3.XuatThongTin();
+            // Gán 1 đối tượng bằng đối tượng khác
+            Sinhvien sv4 = sv3;
+            sv4.XuatThongTin();
+            // Nếu sửa sv3 thì sv4 có thay đổi theo không?
+            sv3.Ten = "Tên đã đổi";
+            sv4.XuatThongTin();
+            // Class là 1 trong các loại references type (Kiểu tham chiếu)
+            // Khi Sinhvien sv4 = sv3; thì bản chất ta chỉ tạo ra 1 biến sv4 trỏ về vùng nhớ lưu
+            // thông tin của sv3
         }
     }
 }
