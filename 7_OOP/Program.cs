@@ -48,6 +48,7 @@
             // Class là 1 trong các loại references type (Kiểu tham chiếu)
             // Khi Sinhvien sv4 = sv3; thì bản chất ta chỉ tạo ra 1 biến sv4 trỏ về vùng nhớ lưu
             // thông tin của sv3
+            // BaoTai bt = new BaoTai();
         }
     }
 }

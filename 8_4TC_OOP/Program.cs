@@ -22,11 +22,24 @@
      * biết chính xác đó là cá gì?
      * 
      */
+
     internal class Program
     {
+        /*
+        public string ma = "ma";
+        private int soluong = 1;
+        internal string ten = "abc";
+        protected DateTime ngaysx = DateTime.Now ;
+        protected internal int giaban = 100;
+         */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BaoTai bt = new BaoTai();
+            Console.WriteLine(bt.ma);
+            //Console.WriteLine(bt.soluong); // Lỗi vì là private
+            Console.WriteLine(bt.ten);
+            //Console.WriteLine(bt.ngaysx); // Lỗi vì protected
+            Console.WriteLine(bt.giaban); 
         }
     }
 }
