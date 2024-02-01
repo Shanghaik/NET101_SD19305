@@ -34,6 +34,37 @@ namespace _8_4TC_OOP
         // Bước 1: Tạo constructor bao gồm các thuộc tính của lớp cha. Ctrl . => Generate... của lớp cha
         // Bước 2: Bôi đen các thuộc tính của lớp con => Ctrl . => add parameter to constructor => chọn
         // Cách 2: Tự mà viết =))
+         
+        // Kế thừa phương thức
+        public void XuatThongTin()
+        {
+            base.InThongTin();  // base trong trường hợp là trỏ tới phương thức của lớp cha
+            Console.WriteLine($"Nặng {cannang}, thuộc chủng loại {chungloai}");
+        }
+        // Trong C# không có đa kế thừa với class tức là 1 lớp chỉ có thể kế thừa từ duy nhất
+        // 1 lớp cha. Tuy nhiên 1 lớp có thể kế thừa từ nhiều interface
+        public void An()
+        {
+            Console.WriteLine("Cá chép ăn chìm");
+        }
+        public void An(string doan)
+        {
+            if (doan == "Chay")
+            {
+                Console.WriteLine("Cá sắp đắc đạo");
+            }
+            else Console.WriteLine("Con cá phàm tục");
+        }
+        // CÙng là hành động An của cá chép nhưng với những điều kiện khác nhau thì thể hiện
+        // khác nhau => Overload 
+        // Điều kiện để overload: Các phương thức cùng class, cùng tên và kiểu trả về, khác
+        // tham số truyền vào
+        public override void Boi() // ghi đè phương thức Boi của lớp ConCa
+        {
+            // base.Boi(); // Mặc định sẽ base theo phương thức của lớp cũ
+            // Viết lại phần thân để định nghĩa lại hàm
+            Console.WriteLine("Cá chép bơi bằng cách quẫy đuôi và vây");
+        }
 
     }
 }

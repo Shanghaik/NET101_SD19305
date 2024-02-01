@@ -34,12 +34,23 @@
          */
         static void Main(string[] args)
         {
-            BaoTai bt = new BaoTai();
-            Console.WriteLine(bt.ma);
-            //Console.WriteLine(bt.soluong); // Lỗi vì là private
-            Console.WriteLine(bt.ten);
-            //Console.WriteLine(bt.ngaysx); // Lỗi vì protected
-            Console.WriteLine(bt.giaban); 
+            //BaoTai bt = new BaoTai();
+            //Console.WriteLine(bt.ma);
+            ////Console.WriteLine(bt.soluong); // Lỗi vì là private
+            //Console.WriteLine(bt.ten);
+            ////Console.WriteLine(bt.ngaysx); // Lỗi vì protected
+            //Console.WriteLine(bt.giaban); 
+            ConCa conca = new ConCa();
+            ConCa conca2 = new CaChep();
+            // CaChep chep1 = new ConCa(); // Lỗi
+            // Có thể tạo ra đối tượng của lớp cha bằng constructor của lớp con nhưng
+            // điều ngược lại là không thể
+            // Vì constructor của lớp CaChep có tối đa 5 thuộc tínhcòn ConCa chỉ có 3
+            // Không thể tạo được 1 đối tượng có 5 thuộc tính bởi constructor mà chỉ
+            // có thể khởi tạo 3 thuộc tính
+            CaChep cachep = new CaChep();
+            cachep.InThongTin(); // Vẫn gọi InThongTin của lớp ConCa vì nó kế thừa
+            cachep.XuatThongTin(); 
         }
     }
 }

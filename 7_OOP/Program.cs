@@ -1,4 +1,6 @@
-﻿namespace _7_OOP
+﻿using _8_4TC_OOP;
+
+namespace _7_OOP
 {
     /*
      * OOP là gì? Viết tắt của Object Oriented Programing - Lập trình
@@ -49,6 +51,10 @@
             // Khi Sinhvien sv4 = sv3; thì bản chất ta chỉ tạo ra 1 biến sv4 trỏ về vùng nhớ lưu
             // thông tin của sv3
             // BaoTai bt = new BaoTai();
+            BaoTai bt = new BaoTai();
+            Console.WriteLine(bt.ma); // truy cập được
+            // Console.WriteLine(bt.ten); 
+            // Không dùng được vị internal chỉ trong cùng 1 project
         }
     }
 }
