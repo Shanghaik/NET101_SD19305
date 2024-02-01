@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace _8_4TC_OOP
 {
-    internal class CaMuc : ConCa
+    internal class Cho
     {
-        public override void Boi() // Cũng ghi đè phương thức Boi của lớp cha
-        {
-            
-        }
     }
 }

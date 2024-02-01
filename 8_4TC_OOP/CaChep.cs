@@ -65,6 +65,7 @@ namespace _8_4TC_OOP
             // Viết lại phần thân để định nghĩa lại hàm
             Console.WriteLine("Cá chép bơi bằng cách quẫy đuôi và vây");
         }
+        // Phương thức bơi đã được ghi đè của lớp cha
 
     }
 }
