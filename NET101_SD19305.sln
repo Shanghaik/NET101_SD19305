@@ -30,7 +30,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_Ham_Function", "6_Ham_Fun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_OOP", "7_OOP\7_OOP.csproj", "{A0F67B8C-26CE-478F-8BA2-8BABEB54A7E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_4TC_OOP", "8_4TC_OOP\8_4TC_OOP.csproj", "{8C02D424-CA71-4B0F-9D2E-8486837ED3F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_4TC_OOP", "8_4TC_OOP\8_4TC_OOP.csproj", "{8C02D424-CA71-4B0F-9D2E-8486837ED3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Obj", "List_Obj\List_Obj.csproj", "{27B5B8EC-06D2-4B29-B149-40EA49331570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +88,10 @@ Global
 		{8C02D424-CA71-4B0F-9D2E-8486837ED3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C02D424-CA71-4B0F-9D2E-8486837ED3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C02D424-CA71-4B0F-9D2E-8486837ED3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B5B8EC-06D2-4B29-B149-40EA49331570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B5B8EC-06D2-4B29-B149-40EA49331570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B5B8EC-06D2-4B29-B149-40EA49331570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B5B8EC-06D2-4B29-B149-40EA49331570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

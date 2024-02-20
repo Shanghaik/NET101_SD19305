@@ -10,7 +10,7 @@ namespace _8_4TC_OOP
     {
         public override void Boi() // Cũng ghi đè phương thức Boi của lớp cha
         {
-            
+            Console.WriteLine("Con mực bơi bằng vây và mồm");
         }
     }
 }
